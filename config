@@ -59,7 +59,7 @@ gaps outer 5
 bindsym XF86MonBrightnessUp exec  brightnessctl s 20+
 bindsym XF86MonBrightnessDown exec brightnessctl s 20-
 
-exec --no-startup-id nitrogen --set-scaled /home/bollu/Pictures/wallpaper.jpeg
+exec --no-startup-id nitrogen --set-scaled /home/wjex/Pictures/wallpaper.jpeg
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
