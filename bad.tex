@@ -1,0 +1,197 @@
+%-------------------------
+% Resume in Latex
+% Author : Navodit Narayan Chaudhary
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Navodit Narayan Chaudhary}} & Email : \href{mailto:navoditn15@gmail.com}{navoditn15@gmail.com}\\
+  \href{github.com/wjex09}{github.com/wjex09} & Mobile : +91 -9773979970 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Manipal University Jaipur}{Jaipur, Rajasthan}
+      {Bachelor of Technology in Electronics and Communication Engineering  GPA: 7.5}{Aug. 2018 -- Nov. 2022}
+      
+      
+      {Relevant Courses : Data Structures and Algorithms, Principles of programming languages, Object oriented-programming , Computational Geometry, Structure and interpretation of programming languages,Deep Learning (deeplearning.ai).} 
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+   
+
+    \resumeSubheading
+      {Comviva Technologies}{Bangalore, Karnataka}
+      {Software Engineer}{Aug 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{Drupal}
+          {A content management system to maintain all the data for the mobile applications}
+          {Implemented various features involving searching , caching in the content management system}
+        \resumeItem{API's}
+          {Created various REST API's for the mobile applications.}
+      \resumeItemListEnd
+      
+      
+    \resumeSubheading
+      {EZOPS inc}{Noida, Uttar Pradesh}
+      {Software Engineering Intern}{March 2022 - June 2022}
+      \resumeItemListStart
+        \resumeItem{Keyword Based Tabular Data Extraction:}
+          {Worked on extraction of tabular data from various PDF Structures and large sizes with relevant search terms. Used various python libraries and Optical Character Recognition to find tables in scanned old documents.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Programming Contests}{Jaipur, Rajasthan}
+      {Problem Setter}{Summer 2018 and 2019}
+      \resumeItemListStart
+        \resumeItem{Problem Setting IEEE Codeathon 19, ACM-Codesomnia 19 , Learn IT codeathon}
+          {Problem setter and tester for various programming contest held online and offline. Tasks involved writing and verifying Problem's and solution's, generating test data and overseeing the contest(answering clarifications etc).}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{ACHIEVEMENTS AND PARTICIPATIONS}
+  \resumeSubHeadingListStart
+    \resumeSubItem{ACM  International Collegiate Programming Contest}
+    
+    {ICPC 2020 :Member of notgoodifnotbest Ranked 1200 in online round and qualified for regional contest
+    Amritapuri Regional:  Rank 360
+    2020 Gwalior Regional: Rank 304}
+    
+    \resumeSubItem{Microsoft Q\# winter contest}
+      {The contest featured various problems on quantum Algorithms and protocols.}
+    
+    \resumeSubItem{Competitive Programming}
+      {Participated in various Programming Competitions}
+      
+      {  Codeforces : (Expert 1641) codeforces.com/profile/Wjexmrc
+        Codechef:(1715) codechef.com/users/minimixer
+        Hackerank: hackerrank.com/navoditn15
+        Solved over 2000 programming problems on various online judge's and websites like Project Euler.}
+    
+    \resumeSubItem{Hackathons \& Ideathons}
+      {A member of team Auto Atheneum .The project involved creation of a autonomous library system.}
+    
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  
+  
+      \resumeSubItem{EfficientNet}
+      {Implemented \href{https://arxiv.org/pdf/1905.11946v5.pdf}{this paper} in pytorch from scratch to scale a MobileNet and achieved higher accuracy(82\%) on the CIFAR dataset than normal ConvNets. Also built on top of this EfficientNet was a live image classifier using inputs from live feed to recognize different objects with decent accuracy.}
+      
+    \resumeSubItem{Scheme interpreter}
+      {Wrote a simple interpreter for Scheme a dialect of lisp written in Haskell I/O, mutable state,parsing features, dynamic typing and implemented various exercises mentioned in the book Structure and interpretation of computer programs.}
+      
+    \resumeSubItem{FFT and NTT Algorithm in Haskell}
+      {Implemented an Algorithm for Fast Fourier transform And Number Theoretic transform written in a functional language Haskell for various applications like polynomial convolution and various other operations on Differential Equations.}
+      
+     \resumeSubItem{Data Mining on a huge dataset}
+      {Given a Accidents dataset, I used Apriori Algorithm to get the frequent surrounding states/conditions which led to most of the accidents. I'm also working on a decision tree  classifier which classifies test data into various classes based on expected intensity of accident.}
+
+
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Python, C++,C, Haskell(basic)}
+     \hfill
+     
+     \textbf{Frameworks}{: NumPy,Pytorch ,TensorFlow, Keras}
+     \hfill
+     
+     \textbf{Developer tools}{: Jupyter notebook, git, visual studio , google collab}
+   }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
